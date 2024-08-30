@@ -32,13 +32,13 @@ This Python script runs an Nmap scan on a target to identify open ports, associa
 To run the script, use the following command:
 
 ```bash
-python nmap_scan.py <target>
+python nmap.py <target>
 ```
 
 ### Example
 
 ```bash
-python nmap_scan.py 192.168.1.1
+python nmap.py 192.168.1.1
 ```
 
 This command will scan the target `192.168.1.1` and display open ports and services.
